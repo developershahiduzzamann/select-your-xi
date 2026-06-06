@@ -3,8 +3,8 @@ import React from 'react';
 const Nav = () => {
   return (
     <div>
-      <nav className="w-full bg-white border-b border-gray-100 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="w-full bg-white border-b border-gray-100 shadow-sm px-2">
+        <div className="max-w-7xl mx-auto">
           <div className="flex justify-between h-20 items-center">
 
             <div className=" flex items-center">
@@ -15,7 +15,7 @@ const Nav = () => {
               />
             </div>
 
-            <div className="flex items-center space-x-12 ml-auto">
+            <div className="flex items-center ">
 
               <div className="hidden md:flex items-center space-x-8">
                 <a href="#" className="text-gray-500 hover:text-gray-900 font-medium text-[17px] transition sora">Home</a>
@@ -24,14 +24,14 @@ const Nav = () => {
                 <a href="#" className="text-gray-500 hover:text-gray-900 font-medium text-[17px] transition sora">Schedules</a>
               </div>
 
-              <div className="hidden md:flex items-center gap-2 px-4 py-2.5 border border-gray-200 rounded-xl font-bold text-gray-800 shadow-sm bg-white">
+              <div className="hidden md:flex items-center gap-2 px-4 py-2.5 border border-gray-200 rounded-xl font-bold text-gray-800 shadow-sm bg-white ml-8">
                 <span className="text-[16px] sora">6000000</span>
                 <span className="text-[16px] sora">Coin</span>
                 <span><img src="https://i.ibb.co.com/h1HXZ7kD/Currency.png" alt="" /></span>
               </div>
 
               <div className="flex items-center md:hidden">
-                <label htmlFor="menu-toggle" className="cursor-pointer p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100">
+                <label htmlFor="menu-toggle" className="cursor-pointer  rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100">
                   <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
                   </svg>
