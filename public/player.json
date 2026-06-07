@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "image": "https://example.com/images/virat-kohli.jpg",
+    "country": "India",
+    "role": "Batsman",
+    "is_all_rounder": false,
+    "batting_style": "Right-Hand-Bat",
+    "price": 1500000
+  },
+  {
+    "id": 2,
+    "name": "Shakib Al Hasan",
+    "image": "https://example.com/images/shakib.jpg",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "is_all_rounder": true,
+    "batting_style": "Left-Hand-Bat",
+    "price": 1200000
+  },
+  {
+    "id": 3,
+    "name": "Babar Azam",
+    "image": "https://example.com/images/babar.jpg",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "is_all_rounder": false,
+    "batting_style": "Right-Hand-Bat",
+    "price": 1300000
+  },
+  {
+    "id": 4,
+    "name": "Ben Stokes",
+    "image": "https://example.com/images/stokes.jpg",
+    "country": "England",
+    "role": "All-Rounder",
+    "is_all_rounder": true,
+    "batting_style": "Left-Hand-Bat",
+    "price": 1400000
+  },
+  {
+    "id": 5,
+    "name": "Glenn Maxwell",
+    "image": "https://example.com/images/maxwell.jpg",
+    "country": "Australia",
+    "role": "All-Rounder",
+    "is_all_rounder": true,
+    "batting_style": "Right-Hand-Bat",
+    "price": 1100000
+  },
+  {
+    "id": 6,
+    "name": "Kane Williamson",
+    "image": "https://example.com/images/williamson.jpg",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "is_all_rounder": false,
+    "batting_style": "Right-Hand-Bat",
+    "price": 1250000
+  },
+  {
+    "id": 7,
+    "name": "Rashid Khan",
+    "image": "https://example.com/images/rashid.jpg",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "is_all_rounder": false,
+    "batting_style": "Right-Hand-Bat",
+    "price": 1150000
+  },
+  {
+    "id": 8,
+    "name": "Quinton de Kock",
+    "image": "https://example.com/images/dekock.jpg",
+    "country": "South Africa",
+    "role": "Wicketkeeper-Batsman",
+    "is_all_rounder": false,
+    "batting_style": "Left-Hand-Bat",
+    "price": 1050000
+  },
+  {
+    "id": 9,
+    "name": "Rohit Sharma",
+    "image": "https://example.com/images/rohit.jpg",
+    "country": "India",
+    "role": "Batsman",
+    "is_all_rounder": false,
+    "batting_style": "Right-Hand-Bat",
+    "price": 1450000
+  },
+  {
+    "id": 10,
+    "name": "Litton Das",
+    "image": "https://example.com/images/litton.jpg",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper-Batsman",
+    "is_all_rounder": false,
+    "batting_style": "Right-Hand-Bat",
+    "price": 850000
+  },
+  {
+    "id": 11,
+    "name": "Mitchell Starc",
+    "image": "https://example.com/images/starc.jpg",
+    "country": "Australia",
+    "role": "Bowler",
+    "is_all_rounder": false,
+    "batting_style": "Left-Hand-Bat",
+    "price": 1350000
+  },
+  {
+    "id": 12,
+    "name": "Mehidy Hasan Miraz",
+    "image": "https://example.com/images/miraz.jpg",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "is_all_rounder": true,
+    "batting_style": "Right-Hand-Bat",
+    "price": 950000
+  }
+]
