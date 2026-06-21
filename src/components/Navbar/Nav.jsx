@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Nav = () => {
+const Nav = ({totalBalance}) => {
   return (
     <div>
       <nav className="w-full bg-white border-b border-gray-100 shadow-sm px-2">
@@ -25,7 +23,7 @@ const Nav = () => {
               </div>
 
               <div className="hidden md:flex items-center gap-2 px-4 py-2.5 border border-gray-200 rounded-xl font-bold text-gray-800 shadow-sm bg-white ml-8">
-                <span className="text-[16px] sora">6000000</span>
+                <span className="text-[16px] sora">{totalBalance}</span>
                 <span className="text-[16px] sora">Coin</span>
                 <span><img src="https://i.ibb.co.com/h1HXZ7kD/Currency.png" alt="" /></span>
               </div>

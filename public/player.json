@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Virat Kohli",
-    "image": "https://example.com/images/virat-kohli.jpg",
+    "image": "https://i.ibb.co.com/qLnBzhSm/india-s-virat-kohli-celebrates-after-hitting-four-runs-to-reach-his-century-and-win-the-match-1.jpg",
     "country": "India",
     "role": "Batsman",
     "is_all_rounder": false,
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Shakib Al Hasan",
-    "image": "https://example.com/images/shakib.jpg",
+    "image": "https://i.ibb.co.com/4RcycyRv/shakib-3160647-1.jpg",
     "country": "Bangladesh",
     "role": "All-Rounder",
     "is_all_rounder": true,
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "name": "Babar Azam",
-    "image": "https://example.com/images/babar.jpg",
+    "image": "https://i.ibb.co.com/8Lx3NBWQ/download-1.jpg",
     "country": "Pakistan",
     "role": "Batsman",
     "is_all_rounder": false,
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "Ben Stokes",
-    "image": "https://example.com/images/stokes.jpg",
+    "image": "https://i.ibb.co.com/5WjWKzWW/download-2-1.jpg",
     "country": "England",
     "role": "All-Rounder",
     "is_all_rounder": true,
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "name": "Glenn Maxwell",
-    "image": "https://example.com/images/maxwell.jpg",
+    "image": "https://i.ibb.co.com/Gvz5tpc7/download-4-1.jpg",
     "country": "Australia",
     "role": "All-Rounder",
     "is_all_rounder": true,
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "name": "Kane Williamson",
-    "image": "https://example.com/images/williamson.jpg",
+    "image": "https://i.ibb.co.com/cKJSvcJR/download-5-1.jpg",
     "country": "New Zealand",
     "role": "Batsman",
     "is_all_rounder": false,
@@ -62,7 +62,7 @@
   {
     "id": 7,
     "name": "Rashid Khan",
-    "image": "https://example.com/images/rashid.jpg",
+    "image": "https://i.ibb.co.com/Q7WLBNQZ/download-6-1.jpg",
     "country": "Afghanistan",
     "role": "Bowler",
     "is_all_rounder": false,
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "name": "Quinton de Kock",
-    "image": "https://example.com/images/dekock.jpg",
+    "image": "https://i.ibb.co.com/q3H81D5y/download-7-1.jpg",
     "country": "South Africa",
     "role": "Wicketkeeper-Batsman",
     "is_all_rounder": false,
@@ -82,7 +82,7 @@
   {
     "id": 9,
     "name": "Rohit Sharma",
-    "image": "https://example.com/images/rohit.jpg",
+    "image": "https://i.ibb.co.com/cKhFBj7t/download-8-1.jpg",
     "country": "India",
     "role": "Batsman",
     "is_all_rounder": false,
@@ -92,7 +92,7 @@
   {
     "id": 10,
     "name": "Litton Das",
-    "image": "https://example.com/images/litton.jpg",
+    "image": "https://i.ibb.co.com/0bdL08X/download-9-1.jpg",
     "country": "Bangladesh",
     "role": "Wicketkeeper-Batsman",
     "is_all_rounder": false,
@@ -102,7 +102,7 @@
   {
     "id": 11,
     "name": "Mitchell Starc",
-    "image": "https://example.com/images/starc.jpg",
+    "image": "https://i.ibb.co.com/vCXQdh8B/download-10.jpg",
     "country": "Australia",
     "role": "Bowler",
     "is_all_rounder": false,
@@ -112,7 +112,7 @@
   {
     "id": 12,
     "name": "Mehidy Hasan Miraz",
-    "image": "https://example.com/images/miraz.jpg",
+    "image": "https://i.ibb.co.com/3mcrmxxH/download-11.jpg",
     "country": "Bangladesh",
     "role": "All-Rounder",
     "is_all_rounder": true,

@@ -1,9 +1,11 @@
 
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Card from './components/Card/Card'
 import Nav from './components/Navbar/Nav'
+import Footer from './components/Footer/Footer'
+import SelecedPlayer from './components/SelecedPlayer/SelecedPlayer'
 
 
   const fetchPromise = async()=>{
@@ -13,24 +15,17 @@ import Nav from './components/Navbar/Nav'
 
 function App() {
   const fetchData = fetchPromise()
+  const [toggle, setToggle] = useState(true)
+  const [totalBalance, setTotalBalance] = useState(60000000000)
   return (
     <>
-      <Nav></Nav>
+      <Nav totalBalance = {totalBalance}></Nav>
       <Banner></Banner>
-      <div className="max-w-7xl mx-auto my-5">
-                <div className="flex justify-between">
-                    <div>
-                        <h1 className="sora font-bold text-2xl">Available</h1>
-                    </div>
-                    <div className="h-[48px] w-[278px] border-2 rounded-2xl md:flex justify-between">
-                        <button className="bg-[#E7FE29] px-9  rounded-l-2xl">Available</button>
-                        <button className="px-5 rounded-l-2xl">Selected (0)</button>
-                    </div>
-                </div>
-            </div>
-      <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
-        <Card fetchData ={fetchData}></Card>
-      </Suspense>
+      {toggle === true?<Suspense fallback={<div className="max-w-7xl mx-auto px-2 text-center"><span className="loading loading-dots loading-xl"></span></div>}>
+        <Card fetchData ={fetchData} setToggle = {setToggle} toggle ={toggle} setTotalBalance = {setTotalBalance}></Card>
+      </Suspense>:<SelecedPlayer setToggle ={setToggle}></SelecedPlayer>}
+      
+      <Footer></Footer>
     </>
   )
 }
