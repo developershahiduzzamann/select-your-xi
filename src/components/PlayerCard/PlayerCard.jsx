@@ -1,7 +1,15 @@
 import { useState } from "react";
 
-const PlayerCard = ({ player, setTotalBalance }) => {
+const PlayerCard = ({ player, setTotalBalance, totalBalance }) => {
     const [isSelected, setSelected]= useState(false)
+
+    const handelClick =(playerPoint)=>{
+        if(totalBalance < playerPoint.price ){
+            alert("Apnar Taka Kom")
+            return
+        }
+        setSelected(true),setTotalBalance(totalBalance-playerPoint.price)
+    }
     return (
         <div>
             <div className="mb-2">
@@ -61,9 +69,8 @@ const PlayerCard = ({ player, setTotalBalance }) => {
                         <div className="text-base font-extrabold text-gray-900">
                             Price: ${player.price || "1,500,000"}
                         </div>
-                        <button disabled ={isSelected} onClick={()=>{
-                            setSelected(true),setTotalBalance(5000)
-                        }} className="bg-white border border-gray-300 hover:bg-yellow-400 hover:border-yellow-400 hover:text-gray-900 text-gray-800 font-semibold px-4 py-2.5 rounded-xl transition-all duration-300 text-xs shadow-sm">{isSelected===true? "Seleced" :"Choose Player"}
+                        <button disabled ={isSelected} onClick={()=>{ handelClick (player)}} 
+                        className="bg-white border border-gray-300 hover:bg-yellow-400 hover:border-yellow-400 hover:text-gray-900 text-gray-800 font-semibold px-4 py-2.5 rounded-xl transition-all duration-300 text-xs shadow-sm">{isSelected===true? "Seleced" :"Choose Player"}
                         </button>
                     </div>
                 </div>

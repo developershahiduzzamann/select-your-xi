@@ -1,7 +1,7 @@
 import { use } from 'react';
 import PlayerCard from '../PlayerCard/PlayerCard';
 
-const Card = ({ fetchData, setToggle, toggle, setTotalBalance }) => {
+const Card = ({ fetchData, setToggle, toggle, setTotalBalance, totalBalance }) => {
 
     const playerData = use(fetchData)
     const players = playerData;
@@ -20,7 +20,7 @@ const Card = ({ fetchData, setToggle, toggle, setTotalBalance }) => {
                 </div>
             </div>
             <div className=" max-w-7xl mx-auto grid md:grid-cols-3 lg:grid-cols-4 gap-1">
-                {players.map(player => <PlayerCard player ={player} key = {player.id} setTotalBalance ={setTotalBalance}></PlayerCard>)}
+                {players.map(player => <PlayerCard player ={player} key = {player.id} setTotalBalance ={setTotalBalance} totalBalance ={totalBalance}></PlayerCard>)}
             </div>
         </div>
     );

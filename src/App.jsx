@@ -12,19 +12,19 @@ import SelecedPlayer from './components/SelecedPlayer/SelecedPlayer'
     const res = await fetch("/player.json")
     return res.json()
   }
-
+const fetchData = fetchPromise()
 function App() {
-  const fetchData = fetchPromise()
   const [toggle, setToggle] = useState(true)
-  const [totalBalance, setTotalBalance] = useState(60000000000)
+  const [totalBalance, setTotalBalance] = useState(6000000)
   return (
     <>
       <Nav totalBalance = {totalBalance}></Nav>
       <Banner></Banner>
-      {toggle === true?<Suspense fallback={<div className="max-w-7xl mx-auto px-2 text-center"><span className="loading loading-dots loading-xl"></span></div>}>
-        <Card fetchData ={fetchData} setToggle = {setToggle} toggle ={toggle} setTotalBalance = {setTotalBalance}></Card>
-      </Suspense>:<SelecedPlayer setToggle ={setToggle}></SelecedPlayer>}
-      
+      {toggle === true?
+      <Suspense fallback={<div className="max-w-7xl mx-auto px-2 text-center"><span className="loading loading-dots loading-xl"></span></div>}>
+        <Card fetchData ={fetchData} setToggle = {setToggle} toggle ={toggle} setTotalBalance = {setTotalBalance} totalBalance = {totalBalance}></Card>
+      </Suspense>:
+      <SelecedPlayer setToggle ={setToggle}></SelecedPlayer>}
       <Footer></Footer>
     </>
   )
